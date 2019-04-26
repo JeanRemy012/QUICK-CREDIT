@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online Quick Credit">
+    <link rel="shortcut icon" type="image/x-icon" href="/Quick Credit/UI/image/logo.jpg">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quick Credit | Sign up</title>
+    <link rel="stylesheet" href="/Quick Credit/UI/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">  
+            <div id="branding">
+                <h1><a href="index.html"><span class="highlight">ONLINE</span> QUICK CREDIT</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="admin.html">ADMIN</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="form-container">
+                <div class="form-header">
+                    <h1 class="text-center">create a new account</h1>
+                </div>
+                <form id="signup-form" method="POST" name="register">
+                    <div id="account-error" class="error-span"></div>
+                    <div class="form-input">
+                        <label for="firstname">Firstname *</label><span class="error-span" id="firstname"></span><br>
+                        <input type="text" name="firstname" id="firstname" class="text-input"  required>
+                   </div>
+
+                   <div class="form-input">
+                        <label for="othername">Othername *</label><span class="error-span" id="othername"></span><br>
+                        <input type="text" name="othername" id="othername" class="text-input"  required>
+                   </div>
+
+                 <div class="form-input">
+                        <label for="email">Email address *</label><span class="error-span" id="email"></span><br>
+                        <input type="email" name="email" class="text-input"  required>
+                   </div>
+
+                   <div class="form-input">
+                        <label for="username">username *</label><span class="error-span" id="username"></span><br>
+                        <input type="text" name="username" class="text-input"  required>
+                   </div>
+
+                   <div class="form-input">
+                        <label for="phoneNumber">Phone number *</label><span class="error-span" id="phoneNumber"></span><br>
+                        <input type="tel" name="phoneNumber"  class="text-input"  required>
+                   </div>
+
+                   <div class="form-input">
+                           <label for="password">Password *</label><span class="error-span" id="password"></span><br>
+                           <input type="password" name="password" class="text-input"  required>
+                   </div>
+                   <div class="form-input">
+                        <label for="password">Confirm Your Password *</label><span class="error-span" id="cpassword"></span><br>
+                        <input type="password" name="cpassword"  class="text-input" required >
+                    </div>
+
+                   <button class="button" onclick="signUp();">Sign up</button>
+                   <span>Already have an account?&nbsp;</span> <a href="login.html" class="butto">Login</a>
+                </form>
+            </div>
+</div>
+
+</div>
+
+</div>
+    
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to Our Newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit" class="btnSubscribe">Subscribe</button>
+            </form>
+        </div>
+    </section>
+   
+    
+
+    <footer class="footer">
+        <div class="footer-grid">
+                <div class="f-col1">
+                    <h3 class="text-center">Quick menu</h3>
+                    <hr>
+                    <ul class="no-style">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="admin.html">Admin</a></li>
+                    </ul>
+    
+                </div>
+                <div class="f-col2">
+                    <h3 class="text-center">Social Media</h3>
+                    <hr>
+                   <ul class="no-style"> 
+                       <li><a href="https://www.facebook.com/jeanremy.harerimana"><i class="/Quick Credit/UI/image/facebook.jpg" style="font-size:30px;color:white"></i>Facebook</a> </li>
+                        <li><a href="https://https://twitter.com/remyson012"><i class="/Quick Credit/UI/image/twitter.jpg" style="font-size:30px;color:white"></i>Twitter</a> </li>
+                        <li><a href="https://www.linkedin.com/in/jean-remy-harerimana-77b919175//"><i class="fa fa-linkedin-square" style="font-size:30px;color:white"></i>LinkedIn</a> </li>
+                    </ul>
+                    
+              
+    
+                </div>
+                <div class="f-col3">
+                    <h3 class="text-center">Contact</h3>
+                    <hr>
+                    <ul class="no-style">
+                        <li><label>Email:</label><a href="mailto:remyson012@gmail.com">&nbsp;&nbsp; remyson012@gmail.com</a></li>
+                        <li><label>Tel:</label><a href="tel:+250788200091">&nbsp;&nbsp; +250 788200091</a></li>
+                        <li><label>Addres:</label><a href="#">&nbsp;&nbsp; Kigali, Rwanda</a></li>
+                    </ul>
+    
+                </div>
+            </div>
+    
+    </footer>
+
+</body>
+
+</html>
