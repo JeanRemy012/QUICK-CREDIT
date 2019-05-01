@@ -148,3 +148,7 @@ header a:hover {
 .footer-grid .no-style li {
     list-style-type: none;
 }
+
+.text-input {
+    height: 20px;
+}
