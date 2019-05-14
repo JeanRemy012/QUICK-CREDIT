@@ -117,7 +117,8 @@ header a:hover {
 .footer {
     height: 130px;
     width: 100%;
-    position: relative;
+    position: absolute;
+    bottom: 0;
     background: #c4c9cc;
     margin-top: -40px;
     clear: both;
@@ -152,4 +153,8 @@ header a:hover {
 .text-input {
     height: 20px;
     width: 20%;
+}
+
+.AdminDashboard {
+    text-align: center;
 }
