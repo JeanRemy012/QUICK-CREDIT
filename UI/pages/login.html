@@ -29,9 +29,10 @@
     </header>
     <div class="main-content">
         <div class="form-container">
-            <h2 class="text-center">Log into Your Account</h2>
+
             <div id="login-error" class="error-span text-center"></div>
-            <form method="POST" id="loginForm">
+            <form method="POST" id="Form">
+                <h2 class="text-center">Log into Your Account</h2>
                 <div class="form-input">
                     <label for="username">Username</label>
                     <input type="email" name="username" id="username" class="text-input" required>
@@ -42,7 +43,8 @@
                     <input type="password" name="password" id="password" class="text-input" required>
                 </div>
                 <br>
-                <button onclick="login();" class="button">Login</button> &nbsp; No Account? <a href="signup.html">Create Account</a>
+                <button onclick="login();" class="button">Login</button>
+                <h3> No Account? </h3><a href="signup.html">Create Account</a>
                 <hr>
                 <span style="text-align: center">Forgot password? <a href="reset-password.html">Reset</a></span>
                 <br>
@@ -50,21 +52,6 @@
             </form>
         </div>
     </div>
-
-
-
-
-    <section id="newsletter">
-        <div class="container">
-            <h1>Subscribe to Our Newsletter</h1>
-            <form>
-                <input type="email" placeholder="Enter your email address">
-                <button type="submit" class="btnSubscribe">Subscribe</button>
-            </form>
-        </div>
-    </section>
-
-
 
     <footer class="footer">
         <div class="footer-grid">
