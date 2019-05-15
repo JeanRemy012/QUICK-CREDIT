@@ -174,3 +174,11 @@ header a:hover {
     background-color: #4CAF50;
     color: white;
 }
+
+.Adminl {
+    text-align: center;
+}
+
+.Adminl h1 {
+    color: #0b1f0be5;
+}
