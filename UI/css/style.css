@@ -2,7 +2,8 @@ body {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #c4c9cc;
+    height: 100px;
+    background: #c4c9cc;
 }
 
 .container {
@@ -19,13 +20,14 @@ ul {
 .main-content {
     color: black;
     text-align: center;
+    height: 200px;
 }
 
 header {
     background: #35424a;
     color: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
+    padding-top: 20px;
+    min-height: 40px;
     border-bottom: rgb(44, 187, 16) 3px solid;
 }
 
@@ -66,21 +68,22 @@ header a:hover {
 }
 
 #showcase {
-    min-height: 400px;
-    background: url('/Quick-Credit/UI/image/Capture.PNG') no-repeat;
+    min-height: 500px;
+    background: url('/Quick-Credit/UI/image/background.jpg') no-repeat;
     background-size: cover;
     text-align: center;
-    color: black;
+    color: rgba(33, 37, 30, 0.856);
 }
 
 #showcase h1 {
-    margin-top: 100px;
+    margin-top: 60px;
     font-size: 55px;
     margin-bottom: 10px
 }
 
 #showcase p {
-    font-size: 20px;
+    font-size: 25px;
+    color: black;
 }
 
 .footer {
@@ -89,6 +92,7 @@ header a:hover {
     background: #c4c9cc;
     color: black;
     bottom: 0;
+    height: 100px;
 }
 
 .footer-grid {
@@ -99,8 +103,6 @@ header a:hover {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
-    min-height: 80px;
 }
 
 .footer-grid ul li a {
@@ -128,38 +130,16 @@ header a:hover {
     width: 40%;
     float: center;
     margin-left: 30%;
-    margin-top: 50px;
     border-radius: 10px;
+    background-color: rgba(48, 200, 48, 0.212);
 }
 
 .text-center {
     margin-top: 0;
-    height: 40px;
     background-color: #35424a;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-}
-
-#newsletter {
-    padding: 15px;
-    color: antiquewhite;
-    background: #35424a;
-    margin-top: -180px;
-}
-
-#newsletter h1 {
-    float: left;
-}
-
-#newsletter form {
-    float: right;
-    margin-top: 15px;
-}
-
-#newsletter input[type="email"] {
-    padding: 4px;
-    height: 15px;
-    width: 250px;
+    color: #ffffff;
 }
 
 .about {
@@ -177,4 +157,20 @@ header a:hover {
     border-radius: 10px;
     text-align: left;
     font-size: 25px;
+}
+
+.button {
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
 }
