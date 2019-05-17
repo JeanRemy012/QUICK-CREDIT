@@ -1,0 +1,44 @@
+{
+    "name": "quick-credit",
+    "version": "1.0.0",
+    "description": "Quick Credit is an online lending platform that provides short term soft loans to individuals. This\r helps solve problems of financial inclusion as a way to alleviate poverty and empower low\r income earners.",
+    "main": "login.js",
+    "scripts": {
+        "test": "mosha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JeanRemy012/Quick-Credit.git"
+    },
+    "author": "Jean Remy HARERIMANA",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/JeanRemy012/Quick-Credit/issues"
+    },
+    "homepage": "https://github.com/JeanRemy012/Quick-Credit#readme",
+    "dependencies": {
+        "bcrypt": "^3.0.6",
+        "body-parser": "^1.19.0",
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "dotenv": "^8.0.0",
+        "es6": "0.0.7",
+        "express": "^4.16.4",
+        "jsonwebtoken": "^8.5.1",
+        "lodash.isempty": "^4.4.0",
+        "validator": "^10.11.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.4",
+        "@babel/node": "^7.2.2",
+        "@babel/preset-env": "^7.4.4",
+        "@babel/register": "^7.4.4",
+        "coveralls": "^3.0.3",
+        "eslint": "^5.16.0",
+        "mocha": "^6.1.4",
+        "mocha-lcov-reporter": "^1.3.0",
+        "nodemon": "^1.19.0",
+        "nyc": "^14.1.1"
+    }
+}
