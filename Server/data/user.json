@@ -2,4 +2,8 @@
     "username": "username",
     "email": "email@hostname.com",
     "password": "userPassword!23"
+}, {
+    "email": "email@test.rw",
+    "password": ")87ThisPaSSWORD$",
+    "username": "Remmy"
 }]
