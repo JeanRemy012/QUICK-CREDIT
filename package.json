@@ -29,14 +29,17 @@
         "joi": "^14.3.1",
         "jsonwebtoken": "^8.5.1",
         "lodash.isempty": "^4.4.0",
-        "validator": "^10.11.0"
-    },
-    "devDependencies": {
+        "validator": "^10.11.0",
         "@babel/cli": "^7.4.4",
         "@babel/core": "^7.4.4",
         "@babel/node": "^7.2.2",
         "@babel/preset-env": "^7.4.4",
-        "@babel/register": "^7.4.4",
+        "@babel/register": "^7.4.4"
+    },
+    "engines": {
+        "node": "10.x"
+    },
+    "devDependencies": {
         "coveralls": "^3.0.3",
         "eslint": "^5.16.0",
         "eslint-config-airbnb-base": "^13.1.0",
